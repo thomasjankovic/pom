@@ -11,7 +11,7 @@ $ pipenv install
 $ pipenv shell
 (pom) $ python pom.py
 ```
-*Hint: use `$ exit` to exit the pipenv.*
+*Hint: use `$ exit` to exit the pipenv.*  
 2. To customize the number of working sessions, add `-s` followed by the desired number of sessions. For example, the following runs three sessions: 
 ```
 $ python pom.py -s 3
