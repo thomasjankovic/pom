@@ -32,5 +32,7 @@ $ python pom.py -s 3 -w 50 -b 10
 - [X] Look into difference between time and datetime libraries. Should probably stick to just one. They seem suited to these particular use cases.
 - [X] Recieve command line input for work session length and break length.
 - [X] Custom alert icons.
+- [ ] Specify reqs and use virtual environment.
+- [ ] Child process that runs timer so terminal is freed up. 
 - [ ] 5 more minutes button.
 - [ ] Pause button?
