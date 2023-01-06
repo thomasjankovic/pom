@@ -14,11 +14,11 @@ $ pipenv shell
 *Hint: use `$ exit` to exit the pipenv.*  
 2. To customize the number of working sessions, add `-s` followed by the desired number of sessions. For example, the following runs three sessions: 
 ```
-$ python pom.py -s 3
+(pom) $ python pom.py -s 3
 ```
 3. To customize the work session duration, add `-w` followed by the desired number of minutes. To customize the break duration, add `-b` followed by the desired number of minutes. For example, the following runs three 50 minute work sessions interspersed with 10 minute breaks:
 ```
-$ python pom.py -s 3 -w 50 -b 10
+(pom) $ python pom.py -s 3 -w 50 -b 10
 ```
 4. To cancel the entire session at any point, press control+c.
 

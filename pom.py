@@ -6,14 +6,14 @@ import argparse
 _myDir = os.path.abspath(os.path.dirname(__file__))
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--sessions', '-s', type=int)
-parser.add_argument('--work', '-w', type=int)
-parser.add_argument('--rest', '-b', type=int) # 'break' is a Python keyword.
+parser.add_argument('--sessions', '-s', type=int, default=4)
+parser.add_argument('--work', '-w', type=int, default=25)
+parser.add_argument('--rest', '-b', type=int, default=5) # 'break' is a Python keyword.
 args = parser.parse_args()
 
-sessions = 4 if args.sessions is None else args.sessions
-session_dur = 25 if args.work is None else args.work
-break_dur = 5 if args.rest is None else args.rest
+sessions = args.sessions
+session_dur = args.work
+break_dur = args.rest
 
 def do_pom(count, session_dur):
 	print(f'Session {count}/{sessions} started at {datetime.now().strftime("%-I:%M:%S %p")} and will end at {(datetime.now() + timedelta(minutes = session_dur)).strftime("%-I:%M:%S %p")}.')
