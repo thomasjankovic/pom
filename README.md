@@ -39,4 +39,4 @@ $ pipenv shell
 - [ ] Pause button?
 
 ## Footnotes:
-*[^1]: Use `$ sudo -H pip install -U pipenv` if pipenv isn't installed on your machine.*
+[^1]: Use `$ sudo -H pip install -U pipenv` if pipenv isn't installed on your machine.
