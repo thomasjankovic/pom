@@ -2,12 +2,11 @@
 Simple pomodoro timer for macOS using shell commands and Mac automation alerts. By default, the timer runs four 25 minute work sessions interspersed with 5 minute breaks.
 
 ## Instructions:
-The easiest way to install and run this pomodoro timer (using a pipenv) is:
+The easiest way to install and run this pomodoro timer (using a pipenv[^1]) is:
 1. Open terminal and run:
 ```
 $ git clone https://github.com/thomasjankovic/pom.git
 $ cd pom
-$ pipenv install
 $ pipenv shell
 (pom) $ python pom.py
 ```
@@ -36,6 +35,8 @@ $ pipenv shell
 - [X] Recieve command line input for work session length and break length.
 - [X] Custom alert icons.
 - [X] Specify reqs and use virtual environment.
-- [ ] Child process that runs timer so terminal is freed up. 
 - [ ] 5 more minutes button.
 - [ ] Pause button?
+
+## Footnotes:
+*[^1]: Use `$ sudo -H pip install -U pipenv` if pipenv isn't installed on your machine.*
