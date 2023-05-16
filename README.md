@@ -36,6 +36,7 @@ $ pipenv shell
 - [X] Custom alert icons.
 - [X] Specify reqs and use virtual environment.
 - [ ] 5 more minutes button.
+- [ ] Skip break button.
 - [ ] Pause button?
 
 ## Footnotes:
